@@ -1,0 +1,610 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+* {
+  /* margin: 0; */
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+}
+.contianer_content {
+  margin: 0 auto;
+
+  padding: 1.5625em 0 0 2.5em;
+
+  width: 92.5em;
+  height: 56.875em;
+  display: grid;
+  grid-template-columns: 15.9375em 41.5625em 35.625em;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 4.375em;
+}
+
+.first_item {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+.first_content {
+  margin-top: 4.0625em;
+  margin-bottom: 15.9375em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 16.875em;
+}
+
+.first_content__list {
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  text-align: center;
+  width: 165px;
+  height: 39px;
+  cursor: pointer;
+}
+#blue {
+  color: #197bbd;
+  background-color: #f0f7ff;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 0.875em;
+}
+
+.first_content__list span {
+  color: #c7c7c7;
+}
+
+.first_end p {
+  font-family: "Suprema";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.67194375em;
+  text-align: center;
+
+  /* text-primary */
+
+  color: #404040;
+}
+
+.first_end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.first_end button {
+  width: 164px;
+  height: 43px;
+  background-color: #ffc145;
+  color: #404040;
+  border-radius: 15px;
+  border: none;
+}
+
+.first_end p {
+  text-align: center;
+}
+
+.second h1 {
+  font-family: "Suprema";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.75em;
+  color: #404040;
+}
+
+h3 {
+  font-family: "Suprema";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.111.125em;
+  color: #404040;
+}
+
+.second span {
+  font-family: "Suprema";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.0625em;
+  color: #aeaeae;
+}
+
+.second_item {
+  margin-top: 50px;
+}
+
+.second_item__card {
+  display: flex;
+}
+
+.card_item {
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.card img {
+  cursor: pointer;
+}
+
+.item_card__text {
+}
+
+.card_text {
+}
+
+.card_text_button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.card_text__price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 36px;
+}
+
+.card_text__price h4 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2em;
+
+  /* primary */
+
+  color: #197bbd;
+}
+
+.cart_line {
+  width: 0px;
+  height: 199.86px;
+
+  border: 1px solid #e8e8e8;
+  margin-left: 1.125em;
+  margin-right: 1.125em;
+  margin-top: 15px;
+  /* margin: 5px; */
+}
+
+#card_text__start {
+  margin-top: 15px;
+}
+
+#card_text__black {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875em;
+  margin-left: 65px;
+
+  color: #404040;
+}
+
+#text_price__blue {
+  color: #197bbd;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+}
+
+#text_price__red {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.125em;
+
+  color: #bb4430;
+}
+
+#text_price__green {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.125em;
+
+  color: #439a86;
+}
+
+#card_text__price {
+  color: #197bbd;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.125em;
+  line-height: 1.375em;
+}
+
+.card_text_button img {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.second_table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 38.75em;
+}
+#second_table__h3 {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+td,
+th {
+  /* border: 1px solid #dddddd; */
+  text-align: left;
+  padding-bottom: 20px;
+  padding-right: 75px;
+
+  font-family: "Suprema";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875em;
+
+  /* unactive */
+
+  color: #c7c7c7;
+  /* padding: 10px; */
+}
+#table_name {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+
+  font-family: "Suprema";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875em;
+
+  /* text-primary */
+
+  color: #404040;
+}
+
+#table_price {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875em;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: right;
+
+  /* text-primary */
+
+  color: #404040;
+}
+
+table tr {
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 5px;
+  margin: 5px;
+  padding: 10px;
+}
+.second_table tr th {
+}
+
+.second_table {
+}
+
+.second_table {
+}
+
+.third {
+}
+
+#third_header__img {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.third_header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 75px;
+}
+
+.third_header__peolle {
+  width: 2.25em;
+  height: 2.25em;
+  border-radius: 100%;
+  background-color: #ffc145;
+  cursor: pointer;
+}
+
+.third_header__text h5 {
+  font-family: "Suprema";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875em;
+  line-height: 17px;
+
+  /* text-primary */
+
+  color: #404040;
+}
+
+.third_header__text p {
+  font-family: "Suprema";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 17px;
+
+  color: #aeaeae;
+  margin: 0;
+  padding: 0;
+}
+
+.card_text__price {
+}
+
+.third_Goals_header {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.third_Goals_blok {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Goals_blok__item {
+  background: #ffffff;
+  /* 1 */
+
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+
+  width: 7.5em;
+  height: 8.75em;
+  /* height: 170px;
+  width: 160px; */
+}
+.Goals_blok__item img {
+  height: 1.875em;
+  width: 1.5625em;
+}
+
+.third_Statistics {
+  display: flex;
+  flex-direction: column;
+}
+.third_Statistics h3 {
+  margin: 20px 0;
+}
+
+.third_Statistics__item {
+  display: flex;
+}
+
+.third_Statistics__item h2 {
+  margin-left: 13px;
+
+  text-align: right;
+}
+
+.Statistics__item__list span {
+  font-family: "Suprema";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 17px;
+
+  color: #aeaeae;
+}
+
+.third_transaction {
+  display: flex;
+}
+
+.user {
+  display: flex;
+  justify-content: space-around;
+}
+
+.transaction_right__user {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction_right__button {
+  display: flex;
+}
+
+.transaction_right__button button {
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+
+  width: 8.1875em;
+  height: 2.25em;
+}
+
+.third_Statistics__item {
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+}
+
+.Statistics__item__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction_right__user {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.transaction_right__user img {
+  width: 2.8125em;
+  height: 2.8125em;
+  margin: 6px;
+}
+
+.transaction_right__button input {
+  width: 10.9375em;
+  height: 2.25em;
+
+  background: #ffffff;
+
+  border: 1px solid #197bbd;
+  border-radius: 8px;
+  font-size: 1.375em;
+  font-family: "Lato";
+  color: #c7c7c7;
+  text-align: left;
+}
+
+.form__name {
+  position: relative;
+}
+
+.form__name::after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 2.8125em;
+  width: 2.8125em;
+  background-color: red;
+  top: 0;
+  right: 0;
+}
+
+.transaction_right__button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.transaction_right__button button {
+  width: 131.59px;
+  height: 36.52px;
+  margin: 0.7em;
+  background-color: #ffc145;
+  border-radius: 15px;
+  border: none;
+  color: #404040;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 100%;
+
+    max-width: 750px;
+  }
+  .contianer_content {
+    margin: 0 auto;
+
+    /* padding: 1.5625em 0 0 2.5em; */
+
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas:
+      "side content1"
+      "side content2";
+  }
+  .first {
+    grid-area: side;
+    width: 90px;
+  }
+
+  .second {
+    width: 100%;
+    grid-area: content1;
+    width: 100%;
+  }
+
+  .third {
+    width: 610px;
+    grid-area: content2;
+  }
+
+  .third_header {
+    /* display: none; */
+  }
+
+  .third_Goals_header {
+    width: 600px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+  }
+  .contianer_content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "side"
+      "content1"
+      "content2";
+  }
+  .first {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -200px;
+  }
+  .first_content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .first_end img {
+    display: none;
+  }
+}
